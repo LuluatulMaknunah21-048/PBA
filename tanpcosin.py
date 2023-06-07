@@ -34,7 +34,7 @@ if selected=='Start Analisis':
         from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
         
         # Membaca kamus dari file Excel
-        kamus_df = pd.read_excel('https://github.com/LuluatulMaknunah21-048/PBA/normalisasi.xlsx')
+        kamus_df = pd.read_excel('PK')
         # Mengubah kamus menjadi dictionary
         kamus_dict = dict(zip(kamus_df['before'], kamus_df['after']))
         def normalize_typo(text):
