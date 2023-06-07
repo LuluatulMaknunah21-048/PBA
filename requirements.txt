@@ -8,3 +8,4 @@ matplotlib
 plotly
 Pillow
 streamlit-option-menu
+nltk
