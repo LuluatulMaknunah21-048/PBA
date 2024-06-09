@@ -12,3 +12,7 @@ librosa
 pycaret
 nltk
 Sastrawi
+pip>=6.0
+lxml>=3.3.4
+pytest
+tox
